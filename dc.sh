@@ -16,6 +16,7 @@ Options:
   stats|st          Dockerコンテナの状態を表示します。
   start             すべてのDaemonを起動します。
   stop              すべてのDaemonを停止します。
+  import            targetディレクトリ内のログファイルをAWStatsに取り込みます。
   --version, -v     バージョンを表示します。
   --help, -h        ヘルプを表示します。
 EOF
