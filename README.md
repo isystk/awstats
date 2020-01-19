@@ -22,7 +22,7 @@ $ ./dc.sh all stop
 ```
 
 ### AWStatusコンソールを表示する
-http://localhost/awstats.pl?config=localhost
+http://localhost/
 
 ### ログファイルをAWStatsに取り込みする
 ./import.sh
