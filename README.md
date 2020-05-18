@@ -15,19 +15,29 @@ AWStats
 
 ```
 # サーバーを起動する
-$ ./dc.sh all start
+$ ./dc.sh start
 
 # サーバーを停止する
-$ ./dc.sh all stop
+$ ./dc.sh stop
 ```
 
 ### AWStatusコンソールを表示する
-http://localhost/
+http://localhost:8090/
 
 ### ログファイルをAWStatsに取り込みする
-./import.sh
+
+```
+# ログファイルのインポート
+$ ./import.sh
+```
 
 ## Install
+
+```
+$ ./dc.sh init
+
+$ ./dc.sh start
+```
 
 ## Contribution
 

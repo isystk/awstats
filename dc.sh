@@ -31,6 +31,13 @@ case ${1} in
         docker container stats
     ;;
 
+    init)
+        # 停止＆削除（コンテナ・イメージ・ボリューム）
+        docker-compose down --rmi all --volumes
+        rm -Rf ./docker/awstats/data/*
+        rm -Rf ./docker/apache/logs/*
+    ;;
+
     start)
         docker-compose up -d
     ;;
